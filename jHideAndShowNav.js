@@ -11,7 +11,7 @@
  */
 
 jQuery.fn.extend({
-    jHideAndShow: function (args) {
+    jHideAndShowNav: function (args) {
         var hiddenControlsHtml = "";
         var elementName = '.' + this.attr('class');
         var totalElements = $(elementName + ' nav a').length;
