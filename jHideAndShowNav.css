@@ -1,3 +1,8 @@
+.clear-both 
+{ 
+    clear: both;
+}
+
 .nav-menu
 {
     width: 940px;
@@ -8,33 +13,6 @@
     position: relative;
     z-index: 999;
 }
-    .nav-menu:before
-    {
-        content: ' ';
-        display: block;
-        position: absolute;
-        width: 940px;
-        height: 37px;
-        margin: auto;
-        margin-top: -57px;
-        background: url('/CCTemplates/Default/images/image.sprite.png') no-repeat top left;
-        background-repeat: no-repeat;
-        background-position: center top;
-        background-position: center -946px; 
-    }
-    .nav-menu:after
-    {
-        content: ' ';
-        display: block;
-        position: absolute;
-        width: 940px; 
-        height: 38px;
-        margin: auto;
-        margin-top: 20px;
-        background: url('/CCTemplates/Default/images/image.sprite.png') no-repeat top left;
-        background-position: center -858px; 
-
-    }
     .nav-menu nav
     {
         border: 1px solid #CCCCCC;
@@ -80,14 +58,6 @@
                 {
                     background-color: #A60311;
                 }
-    .nav-menu img
-    {
-        width: 700px;
-        height: 228px;
-        border: 1px solid #CCCCCC;
-        border-left: none;
-        float: left;
-    }
 .nav-menu div.hidden-links {
     float: left;
     position: absolute;
